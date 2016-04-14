@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">RegistrationDemoapp</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="search_hint">Search Product</string>
+    <string name="intro_message">Welcome to AdurCup search</string>
+    <string name="intro_support">Welcome to AdurCup Support</string>
+    <string name="skuid">SKU ID</string>
+    <string name="status">Status</string>
+    <string name="price">Price</string>
+    <string name="your_selling_price">Price Per Unit(₹)</string>
+    <string name="inventory_detail">Inventory details</string>
+    <string name="stock_count">Stock Count</string>
+    <string name="minimum_quantity">Minimum Quantity</string>
+    <string name="extra_info">Extra Info</string>
+    <string name="remarks">Remarks</string>
+    <string name="shipping_time">Shipping Time (working days)</string>
+    <string name="local">Local(₹)</string>
+    <string name="zonal">Zonal(₹)</string>
+    <string name="national">National(₹)</string>
+
+    <string name="rupee">₹</string>
+
+    <string name="new_in_Adurcup">New in Adurcup?\n <u>Register Here</u></string>
+
+
+    <string name="already_registry">Already registered?\n <u>Back to Login</u></string>
+
+    <string name="settled">Settled</string>
+    <string name="unsettled">Unsettled</string>
+    <string name="no_transaction_detail">No Transaction Detail</string>
+
+    <string name="new_order_todays">New Orders: Today</string>
+    <string name="Orders">Orders</string>
+    <string name="no_new_order_today">No new order today.</string>
+    <string name="pending">Pending</string>
+    <string name="upcoming">Upcoming</string>
+
+    <string name="listing">Listing</string>
+    <string name="in_stock">In Stock</string>
+    <string name="out_of_stock">Out of stock</string>
+    <string name="view_listing">View Listing</string>
+    <string name="view_orders">View Orders</string>
+
+    <string name="outstanding_payments">Outstanding Payments</string>
+    <string name="all_payment_settled">All payment settled.</string>
+
+    <string name="reason_for_return">Reason For Returns</string>
+    <string name="last_30_days">Last 30 days</string>
+    <string name="no_return">No returns.</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="main_url">http://api.adurcup.com/publisher/</string>
+    <string name="check_user_url">http://api.adurcup.com/publisher/user_exist</string>
+    <string name="login_url">http://api.adurcup.com/publisher/login</string>
+    <string name="forgot_password_url">http://api.adurcup.com/publisher/reset_pass</string>
+    <string name="register_url">http://api.adurcup.com/publisher/register</string>
+    <string name="product_url">http://api.adurcup.com/publisher/products</string>
+    <string name="query_url">http://api.adurcup.com/publisher/products?query=</string>
+    <string name="image_product_url">http://www.adurcup.com/images/products/app/</string>
+    <string name="image_product_suggestion_url">http://www.adurcup.com/images/product/thumbnail/</string>
+    <string name="product_cat_url">http://api.adurcup.com/publisher/productCat?query=</string>
+
+    <string name="home_url">http://api.adurcup.com/v4/me</string>
+    <string name="myproduct_url">http://api.adurcup.com/v4/me/products</string>
+    <string name="update_url">http://api.adurcup.com/v4/me/products/</string>
+    <string name="orders_url">http://api.adurcup.com/v4/me/orders</string>
+    <string name="order_accept_url">http://api.adurcup.com/v4/me/orders_accept</string>
+    <string name="order_reject_url">http://api.adurcup.com/v4/me/orders_reject</string>
+    <string name="delete_url">http://api.adurcup.com/v4/me/products/</string>
+    <string name="return_url">http://api.adurcup.com/v4/me/returns</string>
+
+    <string name="otp_url">http://enterprise.smsgupshup.com/apps/TwoFactorAuth/incoming.php?phone=91</string>
+    <string name="otp_key">key=cbff58cd05e9b29c4ee5628a0c5e7f9a</string>
+
+    <string name="payment_url">http://api.adurcup.com/v4/me/payments</string>
+
+    <string name="support_url">http://api.adurcup.com/v4/me/tickets</string>
+
+    <string name="ticket_create_url">http://api.adurcup.com/v4/me/ticketCreate</string>
+    <string name="ticket_getReply_url">http://api.adurcup.com/v4/me/tickets/</string>
+    <string name="ticket_sendRepy_url">http://api.adurcup.com/v4/me/ticketReply</string>
+
+    <string name="user_profile_url">http://api.adurcup.com/v4/me/profile</string>
+    <string name="user_profile_update_url">http://api.adurcup.com/v4/me/profile_update</string>
+    <string name="gcm_registration_url">http://api.adurcup.com/v4/me/update_reg_id</string>
+
+    <string name="mrp">MRP(₹)</string>
+    <string name="selling_price">Your selling Price(per unit)</string>
+
+</resources>

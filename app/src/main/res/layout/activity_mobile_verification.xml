@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/layout"
+    android:background="#009688"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:tint="@android:color/white"
+        android:src="@drawable/mobile_verified_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:id="@+id/mobile_verified_icon"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/relativeLayout"
+        android:layout_below="@+id/mobile_verified_icon"
+        android:background="@color/colorBackGroundGrey"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:text="Let's start by verifying your 10-digit\n Mobile number"
+            android:textSize="16dp"
+            android:id="@+id/text"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/mobile_no"
+            android:layout_width="match_parent"
+            android:layout_margin="16dp"
+            android:hint="Mobile No."
+            android:inputType="phone"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text"
+            />
+    </RelativeLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativeLayout"
+        android:background="@color/colorLightGrey"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Continue"
+        android:id="@+id/verify"
+        />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/verify"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:id="@+id/progress_bar"
+        android:visibility="invisible"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:text="We will send a one time SMS message to\nverify your mobile number."
+        />
+</RelativeLayout>
